@@ -154,15 +154,22 @@ h2{
 
 @media (max-width: 768px) {
     .pet-grid {
-        grid-template-columns: repeat(1, 1fr); /* Change to one column for tablet */
+        grid-template-columns: repeat(1, 1fr);
       }
-    
-      /* Adjust the grid placement for tablet screens */
+
       .pet1,
       .pet2,
       .pet3,
       .pet4 {
-        grid-column: auto; /* Reset grid placement */
-        grid-row: auto; /* Reset grid placement */
+        grid-column: auto;
+        grid-row: auto;
+      }
+
+      h1, h2, h3, p {
+        text-align: center;
+      }
+
+      .navbar {
+        text-align: left;
       }
   }
